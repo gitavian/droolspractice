@@ -1,0 +1,11 @@
+//created on: Nov 17, 2014
+package drools.example.banking
+
+rule "Rule01"
+
+    when
+        eval( 1 == 1 )
+    then
+        System.out.println("Rule 01 works");
+
+end
